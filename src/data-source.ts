@@ -6,12 +6,12 @@ import { Transaction } from "./entity/Transaction"
 
 export const AppDataSource = new DataSource({
     type: "postgres",
-    host: "localhost",
-    port: 5433,
-    username: "postgres",
-    password: "root",
-    database: "ng-cash",
-    synchronize: true,
+    host: "ec2-52-1-17-228.compute-1.amazonaws.com",
+    port: 5432,
+    username: "rfrxjpxlnulzth",
+    password:"b361f646142d716c41a0c7240ee1f60a0444402559217a71a83014cdbbd814f3",
+    database: "d10sm9hudre1a6",
+    synchronize: false,
     logging: false,
     entities: [User, Account, Transaction],
     migrations: [],
