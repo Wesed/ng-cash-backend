@@ -8,7 +8,7 @@ const cors = require('cors');
 const app = express();
 AppDataSource.initialize();
 
-const whitelist = ["http://localhost:3000"]
+const whitelist = ["http://localhost:3000", "https://ngcash-backend.herokuapp.com/"]
 const corsOptions = {
   origin: function (origin, callback) {
     if (!origin || whitelist.indexOf(origin) !== -1) {
