@@ -1,5 +1,5 @@
 {
-   "name": "ngCashBackend",
+   "name": "backend",
    "version": "0.0.1",
    "description": "Awesome project developed with TypeORM.",
    "type": "commonjs",
@@ -23,7 +23,7 @@
    },
    "scripts": {
       "dev": "nodemon --exec ts-node --files src/index.ts",
-      "start": "ts-node-dev --files src/index.ts",
+      "start": "ts-node --files src/index.ts",
       "typeorm": "typeorm-ts-node-commonjs"
    }
 }

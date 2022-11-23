@@ -1,8 +1,9 @@
-FROM node:carbon
+FROM node:alpine
 
-WORKDIR usr/src/app
+WORKDIR /usr/app
 
 COPY package*.json ./
+
 
 RUN npm install
 
